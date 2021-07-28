@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+
+nav{
+    height: 5rem;
+}
+.nav-link{
+    font-size: 1.5rem;
+}
+.navbar-brand{
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+}
+.hero_section{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    /* background-color: blueviolet; */
+
+}
+.hero_left{
+    font-size:2rem ;
+    /* background-color: violet; */
+    font-family: 'Dosis', sans-serif;
+}
+.hero_left h1{
+    text-shadow: 1px 1px 11px #00000085;
+    font-size: 3rem;
+    margin: 1rem 1rem;
+}
+.hero_left h1:nth-child(2){
+    color:#74b9ff;
+}
+#readbtn{
+    box-shadow:0px 2px 14px -3px black;
+    width: 7rem;
+    font-size: 1.4rem ;
+    background-color: #f44d59;
+    border-radius: 2rem;
+
+}
+
+#rocket{
+    width: 53rem;
+    height: 34rem;
+}
+
+.aboutus{
+    width: 100%;
+    height: 100%;
+    /* background-color: cadetblue; */
+}
+.about_head{
+    display: block;
+    /* background-color: cyan; */
+    width: 100%;
+    height: 6rem;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+.about_head  h1{
+    color:#f44d59 ;
+
+}
+.about_head p{
+    font-size:1.5rem;
+}
+.about_sec{
+    display: flex;
+    align-items: center;
+    
+}
+.about_info{
+    margin: 3rem;
+}
+.about_info h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+.about_info p{
+    text-transform:  capitalize;
+
+}
+#aboutbtn{
+    box-shadow:0px 2px 14px -3px black;
+    width: 8rem;
+    font-size: 1.4rem ;
+    background-color: #f44d59;
+    border-radius: 2rem;
+}
+#roboimg{
+    width: 47rem;
+    height: 37rem;
+}
+
+.services{
+    width: 100%;
+    height: 100vh;
+    
+    /* background-color: brown; */
+}
+.service_head{
+    /* background-color: coral; */
+    display: block;
+    text-align: center;
+    height: 6.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 8rem;
+
+}
+.service_head h1{
+    color:#f44d59 ;
+
+}
+.service_head p{
+    font-size:1.5rem;
+
+}
+.services_holder{
+    display: grid;
+    grid-template-columns:1fr 1fr  1fr;
+    grid-template-rows: 17rem 17rem;
+    grid-gap: 2rem;
+    grid-row-gap: 6rem;
+    height: 100vh;
+    /* background-color: darkgreen; */
+}
+.settings{
+    /* background-color: blue; */
+    box-shadow: 10px 10px 30px -13px rgba(0,0,0,0.75);
+    border-radius: 1rem;
+
+}
+.icon{
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    transform: translateY(-50%);
+
+}
+.icon img{
+    width: 5rem;
+    height: 5rem;
+}
+.set_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: -0.9rem 0rem;
+    /* background-color: chartreuse; */
+}
+#settings:hover{
+    background: rgb(238,79,6);
+background: linear-gradient(114deg, rgba(238,79,6,1) 0%, rgba(236,46,14,1) 35%, rgba(235,232,25,1) 69%, rgba(251,235,45,1) 100%);
+}
+#backup:hover{
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+#database:hover{
+    background: rgb(239,200,74);
+background: linear-gradient(129deg, rgba(239,200,74,1) 4%, rgba(232,214,49,1) 28%, rgba(58,85,106,1) 69%, rgba(58,85,106,1) 100%);
+}
+
+#privacy:hover{
+    background: rgb(39,59,122);
+background: linear-gradient(129deg, rgba(39,59,122,1) 4%, rgba(39,59,122,1) 28%, rgba(255,127,79,1) 69%, rgba(255,127,79,1) 100%);
+}
+
+#security:hover{
+    background: rgb(67,99,117);
+background: linear-gradient(129deg, rgba(67,99,117,1) 4%, rgba(67,99,117,1) 28%, rgba(255,137,0,1) 69%, rgba(255,137,0,1) 100%);    
+}
+#speed:hover{
+    background: rgb(53,126,255);
+background: linear-gradient(129deg, rgba(53,126,255,1) 4%, rgba(53,126,255,1) 28%, rgba(234,246,255,1) 69%, rgba(234,246,255,1) 100%);
+}   
